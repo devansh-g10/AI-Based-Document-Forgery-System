@@ -1,0 +1,25 @@
+# Pytest / Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary Uploads
+forgery_detector/uploads/
+uploads/
+
+# Model Files
+forgery_detector/model/*.pth
+model/*.pth
+
+# Dataset
+forgery_detector/dataset/
+dataset/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
